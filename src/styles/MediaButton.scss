@@ -1,0 +1,40 @@
+$background-color: #121212;
+$hovercolor: #E8D1E4;
+$color: rgb(209,209,209);
+.med-button {
+    background: $background-color;
+    border: none; 
+    display: inline-block;
+    position: relative;
+    margin-right: 2em;
+    // height: 2rem; 
+    // width: 2rem; 
+}
+
+.icon {
+    height: 3rem; 
+    color: $color; 
+    margin-bottom: 0.7rem;
+}
+
+.icon:hover {
+    color: $hovercolor; 
+}
+
+.med-button:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $hovercolor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .med-button:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
