@@ -3,12 +3,19 @@ import Typewriter from "./Components/Typewriter";
 import SocialMediaBar from "./Components/SocialMediaBar/SocialMediaBar";
 import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills/Skills";
+import { Helmet } from "react-helmet";
 
 const firstContent = `I am Aarav Jain `;
 
 const App = () => {
   return (
     <div className="content">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Aarav Jain</title>
+        <link rel="canonical" href="https://aarav-j.github.io" />
+        <meta name="description" content="Aarav Jain's Portfolio" />
+      </Helmet>
       <Navbar />
       <div className="title">
         <Typewriter content={firstContent} speed={300} />
