@@ -3,6 +3,7 @@ import Typewriter from "./Components/Typewriter";
 import SocialMediaBar from "./Components/SocialMediaBar/SocialMediaBar";
 import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills/Skills";
+
 const firstContent = `I am Aarav Jain `;
 
 const App = () => {

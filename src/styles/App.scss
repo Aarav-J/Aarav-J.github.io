@@ -57,6 +57,11 @@ $text-color: rgb(209,209,209);
 
 body {
   background: $background-color;
+  
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .about-me {

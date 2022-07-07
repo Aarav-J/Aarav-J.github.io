@@ -1,10 +1,11 @@
 import "../styles/Navbar.scss";
-const Navbar = () => {
+const Navbar = ({ skillRef }) => {
   return (
     <div className="nav">
       <a
         target="_blank"
         className="logo"
+        rel="noreferrer"
         href="https://www.chess.com/member/chessking2580"
       >
         AJ.
