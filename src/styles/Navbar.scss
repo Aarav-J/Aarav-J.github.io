@@ -1,0 +1,59 @@
+$text-color: rgb(209,209,209);
+$hover-color: #FFCCDB;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.logo {
+    font-size: 32pt;
+    
+    background-image: linear-gradient(to left, #ffccdb, #f9cddf, #f3cee1, #eed0e3, #e8d1e4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 50pt; 
+    display: inline-block;
+    margin-top: 0.7rem;
+    cursor: pointer;
+}
+.nav { 
+    margin-left: 2em;
+}
+.links {
+   
+    margin-top: 2em;
+    float: right;
+    
+}
+
+.link { 
+    
+    font-weight: 400;;
+   
+   text-decoration: none;
+    color: $text-color;
+    margin-right: 3rem;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    position: relative;
+}
+a:hover {
+    color: $hover-color;
+}
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $hover-color;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

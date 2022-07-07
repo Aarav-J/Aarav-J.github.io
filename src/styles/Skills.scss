@@ -1,0 +1,16 @@
+$text-color: rgb(209,209,209);
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 10px;
+}
+
+.content-title {
+    color: $text-color; 
+    text-transform: uppercase;
+    font-size: 2rem;
+
+}

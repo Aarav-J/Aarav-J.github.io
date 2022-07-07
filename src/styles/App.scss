@@ -2,7 +2,7 @@
 $background-color: #121212;
 $text-color: rgb(209,209,209);
 .type-writer {
-  font-size: 5rem;
+  font-size: 4rem;
   color: $text-color !important;
   font-family: "Poppins", sans-serif !important;
   margin-bottom: 0px;
@@ -31,7 +31,7 @@ $text-color: rgb(209,209,209);
 }
 
 .subtitle {
-  font-size: 2.9rem;
+  font-size: 2rem;
   font-weight: 400;
   color: $text-color ;
   display: flex;
@@ -78,3 +78,4 @@ body {
   justify-content: center;
   margin-top: 2em;
 }
+
