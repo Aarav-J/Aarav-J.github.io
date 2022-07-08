@@ -1,7 +1,11 @@
 import FancyButton from "./FancyButton";
 import MediaButton from "./MediaButton";
 
-import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faSpotify,
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const SocialMediaBar = () => {
   return (
@@ -12,7 +16,10 @@ const SocialMediaBar = () => {
         link="https://www.instagram.com/_aarav.jain1/"
         icon={faInstagram}
       />
-      <MediaButton link="mailto: aaravjain2007@gmail.com" icon={faEnvelope} />
+      <MediaButton
+        link="https://open.spotify.com/user/paei6pn8u6ac9w2d42wkaohup?si=cf6b16a7e29142a3"
+        icon={faSpotify}
+      />
     </>
   );
 };

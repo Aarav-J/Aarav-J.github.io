@@ -3,6 +3,7 @@ import Typewriter from "./Components/Typewriter";
 import SocialMediaBar from "./Components/SocialMediaBar/SocialMediaBar";
 import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills/Skills";
+import Hobbies from "./Components/Hobbies/Hobbies";
 import { Helmet } from "react-helmet";
 
 const firstContent = `I am Aarav Jain `;
@@ -42,6 +43,9 @@ const App = () => {
         </div>
         <div className="skills">
           <Skills />
+        </div>
+        <div className="hobbies">
+          <Hobbies />
         </div>
       </div>
     </div>

@@ -40,3 +40,4 @@ const Skills = () => {
   );
 };
 export default Skills;
+//Boostrap, Arduino, Github

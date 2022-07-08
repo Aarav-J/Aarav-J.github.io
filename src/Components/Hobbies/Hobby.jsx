@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const Skill = ({ url, text, icon, type }) => {
+const Hobby = ({ url, text, icon, type }) => {
   return (
-    <div className="skill">
+    <div className="hobby">
       <div
         className="icon-bg"
         onClick={() => {
@@ -15,4 +15,4 @@ const Skill = ({ url, text, icon, type }) => {
     </div>
   );
 };
-export default Skill;
+export default Hobby;
