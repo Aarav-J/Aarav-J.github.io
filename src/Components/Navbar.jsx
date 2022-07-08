@@ -1,7 +1,7 @@
 import "../styles/Navbar.scss";
-const Navbar = ({ skillRef }) => {
+const Navbar = ({}) => {
   return (
-    <div className="nav">
+    <nav className="nav">
       <a
         target="_blank"
         className="logo"
@@ -21,7 +21,7 @@ const Navbar = ({ skillRef }) => {
           Projects
         </a>
       </div>
-    </div>
+    </nav>
   );
 };
 export default Navbar;
