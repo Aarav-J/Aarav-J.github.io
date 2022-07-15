@@ -76,6 +76,9 @@ html {
 
 .content {
   font-family: "Poppins", sans-serif ;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .socialMediaBar {
@@ -86,3 +89,7 @@ html {
 }
 
 
+.box {
+  height: 100vh;
+  scroll-snap-align: start;
+}
