@@ -55,17 +55,11 @@ const App = () => {
             </div>
             <div className="everything-else">
               <div className="subtitle">
-                <p>An amazing species</p>
+                <p>An Amazing Species</p>
               </div>
               <div className="about-me">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
-                  ipsam animi expedita veniam corrupti aperiam fuga maiores ut
-                  hic omnis optio soluta quisquam? Enim alias adipisci illo
-                  nulla. Hic, quod. Lorem ipsum dolor, sit amet consectetur
-                  adipisicing elit. Numquam aut et nisi accusantium ex
-                  dignissimos quam repellat quas! Corrupti deleniti ea impedit
-                  quasi deserunt earum totam omnis soluta veritatis nulla?
+                I am a High School Student at East Brunswick High School. I like to play soccer and run track. My favorite person is Suhas Malasani. 
                 </p>
               </div>
 
