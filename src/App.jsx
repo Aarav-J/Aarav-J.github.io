@@ -36,6 +36,7 @@ const App = () => {
       <div className="content">
         <Helmet>
           <meta charSet="utf-8" />
+          <img src="src/extras/Image (2).jpeg" />
           <title>Aarav Jain</title>
           <link rel="canonical" href="https://aarav-j.github.io" />
           <meta name="description" content="Aarav Jain's Portfolio" />
@@ -55,11 +56,11 @@ const App = () => {
             </div>
             <div className="everything-else">
               <div className="subtitle">
-                <p>An Amazing Species</p>
+                <p>The 800 king</p>
               </div>
               <div className="about-me">
                 <p>
-                I am a High School Student at East Brunswick High School. I like to play soccer and run track. My favorite person is Suhas Malasani. 
+                  I am a High School Student at East Brunswick High School. I like to play soccer and run track. My favorite person is Suhas Malasani.
                 </p>
               </div>
 
